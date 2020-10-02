@@ -1,0 +1,182 @@
+body{
+    margin: 0%;
+}
+
+/* the first nav bar */
+#bar1{
+    width: 100%;
+    height: 30px;
+    background-color: beige;
+    color: gray;
+}
+.unibar{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid grey;
+}
+.line{
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    border-right: 1px solid grey;
+    
+}
+.aone{
+    margin-right:20px ;
+}
+.sub-bar1{
+    text-align: right;
+    width: 35%;
+}
+.sub-bar2{
+    text-align: center;
+    width: 10%;
+}
+.sub-bar3{
+    text-align: center;
+    width: 5%;
+}
+.sub-bar4{
+    text-align: center;
+    width: 20%;
+}
+.sub-bar5{
+    text-align: center;
+    width: 10%;
+}
+.sub-bar6{
+    width: 15%;
+    border-style: none;
+}
+ .unibar a:link{
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: grey;
+}
+/* the second navbar */
+#bar2{
+    width: 100%;
+    height: 90px;
+    background-color: red;
+    
+}
+.unibar2{
+    width: 100%;
+    height: 90px;
+    padding: 0%;
+    display: inline-flex;
+   
+}
+.subd-1{
+    width: 20%;
+    height: 90px;
+    background-color: green;
+    display: inline-block;
+    text-align: right;
+    
+}
+.subd-2{
+    width: 40%;
+    height: 90px;
+    display: inline-block;
+    background-color: blue;
+}
+.subd-3{
+    width: 40%;
+    height: 90px;
+    display: inline-block;
+    background-color: blueviolet;
+    font-size: 2rem;
+}
+nav{
+    height: 30px;
+    margin-bottom: 0%;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 2%;
+    width: 98%;
+    margin-bottom: 5%;
+    height: 30px;
+    
+}
+nav ul li{
+    padding-left:1% ;
+    justify-content: space-around;
+    
+    
+}
+.he{
+    padding: 0%;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    height: 50px;
+}
+.butone{
+    margin-top: 4%;
+    width: 85%;
+    height: 35px;
+    display: inline-flex;
+    margin-left: 3%;
+}
+.butone:visited{
+    border-color: none;
+}
+.search{
+    margin-top: 4%;
+    width: 10%;
+    height: 35px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: red;
+    display: inline-flex;
+}
+input{
+    border-color: white;
+    border-style: none;
+    background-color: white;
+}
+.things1{
+    display: inline-flex;
+    height: 50px;
+    width: 100%;
+}
+.things2{
+    height: 30px;
+}
+/*font side of the second header  */
+.subfont{
+    display: inline-block;
+    margin-top: 20%;
+}
+.subfont2{
+    display: inline-block;
+    width: 30%;
+}
+.subfont3{
+    display: inline-block;
+}
+.subfont31{
+    display: inline-block;
+    
+}
+.fonts3{
+    display: inline-block;
+    width: 310px;
+    margin: 0%;
+}
+.fonts1{
+    width: 100px;
+    display: inline-block;
+}
+.fonts2{
+    width: 100px;
+    display: inline-block;
+}
+/* for words in the rigth hand side of the logo section */
+.subword{
+    font-size: 1rem;
+}
